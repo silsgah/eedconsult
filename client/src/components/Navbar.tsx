@@ -53,10 +53,10 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="ghost" className="font-medium">
-            Log In
-          </Button>
-          <Button className="bg-primary hover:bg-blue-700 text-white font-medium px-6">
+          <Button 
+            className="bg-primary hover:bg-blue-700 text-white font-medium px-6"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Book Consultation
           </Button>
         </div>
@@ -84,10 +84,15 @@ export default function Navbar() {
             </a>
           ))}
           <div className="flex flex-col gap-3 mt-2">
-            <Button variant="outline" className="w-full">
-              Log In
+            <Button 
+              className="w-full bg-primary"
+              onClick={() => {
+                setIsOpen(false);
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
+              Book Consultation
             </Button>
-            <Button className="w-full bg-primary">Book Consultation</Button>
           </div>
         </div>
       )}

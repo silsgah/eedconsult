@@ -41,6 +41,7 @@ export default function Hero() {
               <Button
                 size="lg"
                 className="bg-primary hover:bg-blue-700 text-white text-lg px-8 h-14 w-full sm:w-auto shadow-lg shadow-blue-200"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Book Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
