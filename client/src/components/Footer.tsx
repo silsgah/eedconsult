@@ -1,4 +1,5 @@
 import { Facebook, Linkedin, Twitter, Instagram } from "lucide-react";
+import logo from "@assets/EddLogo_1764621333195.jpeg";
 
 export default function Footer() {
   return (
@@ -6,8 +7,8 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="mb-6 md:mb-0">
-            <div className="text-2xl font-heading font-bold text-white flex items-center gap-2 mb-2">
-              Adamani<span className="text-cyan-400">AI</span>
+            <div className="mb-4">
+              <img src={logo} alt="Adamani AI" className="h-10 w-auto object-contain bg-white rounded-md p-1" />
             </div>
             <p className="text-gray-400 text-sm">
               Intelligent Automation for the Modern World.

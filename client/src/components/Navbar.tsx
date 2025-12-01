@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@assets/EddLogo_1764621333195.jpeg";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,11 +34,8 @@ export default function Navbar() {
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
-          <a className="text-2xl font-heading font-bold text-primary flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <div className="w-4 h-4 bg-white rounded-sm transform rotate-45"></div>
-            </div>
-            Adamani<span className="text-gray-800">AI</span>
+          <a className="flex items-center gap-2">
+            <img src={logo} alt="Adamani AI" className="h-12 w-auto object-contain" />
           </a>
         </Link>
 
