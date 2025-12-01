@@ -1,0 +1,222 @@
+PROMPT START
+
+You are an expert website designer and copywriter.
+Create a clean, modern, professional website for an AI Automation Company called Adamani AI Systems.
+The site should clearly explain our services and product offerings for clients in Africa and globally.
+
+Brand Tone
+
+Professional and trustworthy
+
+Modern fintech/AI aesthetic
+
+Clear, concise, and value-driven
+
+Appeals to businesses, banks, SMEs, universities, logistics companies, and government agencies
+
+PAGE STRUCTURE
+1. Hero Section
+
+Big headline: “AI-Powered Automation for Finance, Logistics & Education”
+
+Subheadline: “We build intelligent systems that eliminate manual work, reduce errors, and accelerate decision-making.”
+
+Call-to-action buttons:
+
+Book Consultation
+
+See Live Demo
+
+2. What We Do (Services Overview)
+
+Create 4 service cards with short descriptions:
+
+A. AI Document Intelligence
+
+Automated document processing for banks, insurance, logistics, and government.
+Uses OCR + LLMs to extract, validate, and structure data from PDF, images, and scanned documents.
+
+B. AI Compliance & Governance Automation
+
+AI compliance workflows, policy generation, risk detection, governance dashboards, and automated audit logs.
+
+C. AI Assistant Integrations
+
+AI chatbots and copilots for:
+
+Customer service
+
+HR onboarding
+
+Finance approvals
+
+Internal company knowledgebase
+
+D. Custom AI & Software Development
+
+Full-stack AI & software engineering for specialized business needs:
+
+Freight management
+
+University administration
+
+Finance systems
+
+Workflow automation
+
+3. Product: Credit Document OCR System
+
+Add a dedicated section that explains:
+
+A production-ready AI system for processing loan documents:
+
+OCR with bounding box visualization
+
+LLM field extraction
+
+Rule-based validation
+
+Document staging workflows
+
+API & dashboard
+
+Local LLM support (Llama 3.1 / Mistral)
+
+Works offline / secure
+
+CTA: Learn More
+
+4. SaaS Hosting & Deployment Packages
+
+Show 3 pricing tiers:
+
+Starter (For SMEs)
+
+Single-server deployment
+
+Processes up to 10,000 documents per month
+
+Local LLM included
+
+API access
+
+Basic dashboard
+
+Business
+
+Multi-service deployment (OCR + LLM + API + Database)
+
+100,000 documents per month
+
+Custom workflows
+
+User management
+
+Support & maintenance
+
+Compliance automation
+
+Enterprise
+
+Unlimited document volume
+
+On-premise deployment
+
+Bank-grade security
+
+Integration with IBM / Azure / AWS
+
+Custom AI models
+
+Dedicated support
+
+SLA guarantee
+
+5. Why Choose Us
+
+Bullet points:
+
+Built on reliable modern AI infrastructure
+
+Runs fully offline if needed (no data leaves your servers)
+
+Fast deployment (24–48 hours)
+
+Customizable for any industry
+
+Local support in Africa + global service availability
+
+Cost-effective alternative to expensive enterprise AI systems
+
+6. Integrations
+
+List integrations you support:
+
+IBM Watson
+
+Microsoft Azure AI
+
+AWS Textract
+
+FastAPI / REST
+
+Ollama
+
+MySQL / PostgreSQL
+
+Existing ERP systems
+
+Logistics software & University portals
+
+7. Case Studies
+
+Add 2 case studies:
+
+University Management Automation
+Automated transcript processing, student admissions, payment verification, and academic workflows.
+
+Freight & Logistics AI
+Automated cargo documents, waybills, invoices, container clearance data extraction.
+
+8. Contact / Lead Form
+
+Headline: “Let’s Automate Your Business”
+Fields:
+
+Name
+
+Company
+
+Email
+
+Phone
+
+What service do you need? (select)
+
+9. Footer
+
+Simple footer with:
+
+Company name
+
+Email
+
+WhatsApp
+
+Social links
+
+Privacy policy
+
+Generate the entire website with:
+
+Professional copywriting
+
+Clean section layout
+
+Icons and visuals
+
+Clear CTAs
+
+Strong commercial tone
+
+PROMPT END
