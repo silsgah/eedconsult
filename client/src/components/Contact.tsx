@@ -67,7 +67,7 @@ export default function Contact() {
             <div className="space-y-6">
               <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                 <h4 className="font-bold text-gray-900 mb-2">Email Us</h4>
-                <p className="text-gray-600">contact@adamani.ai</p>
+                <p className="text-gray-600">info@eedconsult.com</p>
               </div>
               <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                 <h4 className="font-bold text-gray-900 mb-2">Location</h4>
