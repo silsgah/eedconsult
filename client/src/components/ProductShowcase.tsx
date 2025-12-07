@@ -57,13 +57,14 @@ export default function ProductShowcase() {
               viewport={{ once: true }}
               className="relative z-10"
             >
-              <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/20 border border-gray-700">
+              <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/20 border border-gray-700 aspect-video">
                 <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-cyan-500/10 mix-blend-overlay z-10 pointer-events-none"></div>
-                <img
-                  src={productImg}
-                  alt="OCR System Interface"
-                  className="w-full h-auto object-cover"
-                />
+                <iframe 
+                  src="https://drive.google.com/file/d/1jlBLDQolTFA2-Y0eM1v5VG-21-naI9QP/preview" 
+                  className="w-full h-full" 
+                  allow="autoplay"
+                  title="Adamani AI Product Demo"
+                ></iframe>
               </div>
             </motion.div>
             
