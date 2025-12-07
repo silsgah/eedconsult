@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight } from "lucide-react";
-import productImg from "@assets/generated_images/3d_isometric_ocr_document_scanning_visualization.png";
+import productVideo from "@assets/product-demo.mp4";
 
 export default function ProductShowcase() {
   const features = [
@@ -57,14 +57,17 @@ export default function ProductShowcase() {
               viewport={{ once: true }}
               className="relative z-10"
             >
-              <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/20 border border-gray-700 aspect-video">
+              <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/20 border border-gray-700 aspect-video group">
                 <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-cyan-500/10 mix-blend-overlay z-10 pointer-events-none"></div>
-                <iframe 
-                  src="https://drive.google.com/file/d/1jlBLDQolTFA2-Y0eM1v5VG-21-naI9QP/preview" 
-                  className="w-full h-full" 
-                  allow="autoplay"
-                  title="Adamani AI Product Demo"
-                ></iframe>
+                <video 
+                  src={productVideo}
+                  className="w-full h-full object-cover" 
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  controls
+                />
               </div>
             </motion.div>
             
