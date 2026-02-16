@@ -1,4 +1,5 @@
 import { Facebook, Linkedin, Twitter, Instagram } from "lucide-react";
+import { Link } from "wouter";
 import logo from "@assets/EddLogo_1764621333195.jpeg";
 
 export default function Footer() {
@@ -34,7 +35,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} Adamani AI Systems. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-gray-300">Privacy Policy</a>
+            <Link href="/privacy-policy"><a className="hover:text-gray-300">Privacy Policy</a></Link>
             <a href="#" className="hover:text-gray-300">Terms of Service</a>
             <a href="#" className="hover:text-gray-300">Contact</a>
           </div>
